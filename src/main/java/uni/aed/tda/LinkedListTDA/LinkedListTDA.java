@@ -6,11 +6,18 @@ public class LinkedListTDA<E> implements ListTDA<E> {
     private Nodo<E> head;
     private Nodo<E> cola;
     private int count;
+    private Nodo<String> lista1;
+    private Nodo<String> lista2;
 
     public LinkedListTDA() {
         clear();
     }
-    
+
+
+
+
+
+
     @Override
     public void add(E data) {
         Nodo<E> newNodo=new Nodo<>(data);
